@@ -12,6 +12,8 @@ def fetch_data(tickers, start_date, end_date):
 
 import streamlit as st
 
+import streamlit as st   # add at top with other imports, the rest at the bottom
+
 st.title("Financial Analysis Web App")
 
 # User inputs
@@ -30,3 +32,5 @@ st.line_chart(stock_data)
 
 st.subheader("Stock Returns")
 st.line_chart(returns_data)
+
+
