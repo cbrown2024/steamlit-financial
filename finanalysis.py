@@ -1,8 +1,8 @@
 import yfinance as yf 
 import pandas as pd 
-import streamlit as st
-
 import streamlit as st   # add at top with other imports, the rest at the bottom
+import numpy as n
+
 def fetch_data(tickers, start_date, end_date): 
     data_frames = [] 
     for ticker in tickers: 
